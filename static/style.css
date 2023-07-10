@@ -1,0 +1,118 @@
+body {
+  width: 60%; /* Set the body width to 80% of the viewport width */
+  height: 50%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.png');
+  position: absolute;
+  margin-left: 20%;
+}
+
+#standing {
+  position: relative;
+  bottom: 20%;
+  right: -110%;
+  max-width: 19%; /* Ensures the image does not exceed its parent container */
+  height: auto; 
+}
+
+
+.form-group {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, +150%);
+  resize: none !important;
+  max-height: 60%;
+}
+
+textarea[name=name]{
+  resize: none !important;
+}
+
+.form-control {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, +50%);
+}
+
+#send-btn {
+  position: relative;
+  background-color: #569172;
+  color: #fff;
+  border-color: #569172;
+  outline: 2px solid white;
+  bottom: 120px;
+  transform: translate(+3%, +800%);
+}
+
+#name {
+  font-family: "Maven Pro";
+  font-variant: small-caps;
+  font-size: 150;
+  color: #fff;
+}
+
+.chat-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, 20%);
+  height: 380px;
+  overflow: auto;
+  padding: 10px;
+}
+
+
+.chat-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 55px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+  background-color:#272a2b;
+  color: #fff;
+  font-size: 20px;
+}
+
+.bot-message {
+  background-color: #484848;
+  color: white;
+  font-size: 20px;
+}
+
+.message-text pre code {
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+.user-icon {
+  font-size: 20px;
+  margin-right: 10px;  
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.bot-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
